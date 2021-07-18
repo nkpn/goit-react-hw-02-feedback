@@ -15,11 +15,6 @@ li {
   list-style: none;
 }
 
-h1 {
-  font-style: 22px;
-  margin: 20px 5px;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
