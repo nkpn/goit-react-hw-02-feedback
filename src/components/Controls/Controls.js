@@ -1,17 +1,17 @@
 import React from 'react';
-import s from './Controls.module.css';
+import style from './Controls.module.css';
 import PropTypes from 'prop-types';
 
 const Controls = ({ options, onLeaveFeedback }) => {
   return (
     <>
-      <ul className={s.Control__list}>
+      <ul className={style.Control__list}>
         {options.map(option => (
           <li key={option}>
             <button
               type="button"
               onClick={onLeaveFeedback}
-              className={s.Control__button}
+              className={style.Control__button}
             >
               {option}
             </button>

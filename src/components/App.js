@@ -5,11 +5,18 @@ import Section from './Section';
 import Notification from './Notification';
 
 class App extends Component {
-  state = {
+  static defaultProps = {
     good: 0,
     neutral: 0,
     bad: 0,
     total: 0,
+  };
+
+  state = {
+    good: this.props.good,
+    neutral: this.props.neutral,
+    bad: this.props.bad,
+    total: this.props.total,
   };
 
   visibleStatistics = false;
