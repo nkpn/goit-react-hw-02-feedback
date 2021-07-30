@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Statistics.module.css';
-import StatisticItem from 'components/Controls/StatisticItem';
+import StatisticItem from 'components/StatisticItem';
 import PropTypes from 'prop-types';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
